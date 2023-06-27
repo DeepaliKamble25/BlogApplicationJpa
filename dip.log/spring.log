@@ -1,0 +1,34 @@
+=2023-06-13 18:07:04,095 org.springframework.boot.StartupInfoLogger %PARSER_ERROR[l] logStarting Starting BlogAppApis1Application using Java 17.0.7 on DESKTOP-34H18FG with PID 17372 (F:\Project_1\blog_app_apis1\target\classes started by HP in F:\Project_1\blog_app_apis1) 55 INFO 
+=2023-06-13 18:07:04,101 org.springframework.boot.SpringApplication %PARSER_ERROR[l] logStartupProfileInfo No active profile set, falling back to 1 default profile: "default" 631 INFO 
+=2023-06-13 18:07:04,228 org.springframework.boot.logging.DeferredLog %PARSER_ERROR[l] logTo Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 255 INFO 
+=2023-06-13 18:07:04,229 org.springframework.boot.logging.DeferredLog %PARSER_ERROR[l] logTo For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 255 INFO 
+=2023-06-13 18:07:05,970 org.springframework.data.repository.config.RepositoryConfigurationDelegate %PARSER_ERROR[l] registerRepositoriesIn Bootstrapping Spring Data JPA repositories in DEFAULT mode. 132 INFO 
+=2023-06-13 18:07:06,126 org.springframework.data.repository.config.RepositoryConfigurationDelegate %PARSER_ERROR[l] registerRepositoriesIn Finished Spring Data repository scanning in 135 ms. Found 4 JPA repository interfaces. 201 INFO 
+=2023-06-13 18:07:07,544 org.springframework.boot.web.embedded.tomcat.TomcatWebServer %PARSER_ERROR[l] initialize Tomcat initialized with port(s): 9091 (http) 108 INFO 
+=2023-06-13 18:07:07,571 org.apache.juli.logging.DirectJDKLog %PARSER_ERROR[l] log Starting service [Tomcat] 173 INFO 
+=2023-06-13 18:07:07,572 org.apache.juli.logging.DirectJDKLog %PARSER_ERROR[l] log Starting Servlet engine: [Apache Tomcat/9.0.75] 173 INFO 
+=2023-06-13 18:07:07,785 org.apache.juli.logging.DirectJDKLog %PARSER_ERROR[l] log Initializing Spring embedded WebApplicationContext 173 INFO 
+=2023-06-13 18:07:07,785 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext %PARSER_ERROR[l] prepareWebApplicationContext Root WebApplicationContext: initialization completed in 3548 ms 292 INFO 
+=2023-06-13 18:07:08,112 org.hibernate.jpa.internal.util.LogHelper %PARSER_ERROR[l] logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: default] 31 INFO 
+=2023-06-13 18:07:08,285 org.hibernate.Version %PARSER_ERROR[l] logVersion HHH000412: Hibernate ORM core version 5.6.15.Final 44 INFO 
+=2023-06-13 18:07:08,689 org.hibernate.annotations.common.reflection.java.JavaReflectionManager %PARSER_ERROR[l] <clinit> HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 56 INFO 
+=2023-06-13 18:07:08,944 com.zaxxer.hikari.HikariDataSource %PARSER_ERROR[l] getConnection HikariPool-1 - Starting... 110 INFO 
+=2023-06-13 18:07:10,129 com.zaxxer.hikari.HikariDataSource %PARSER_ERROR[l] getConnection HikariPool-1 - Start completed. 123 INFO 
+=2023-06-13 18:07:10,177 org.hibernate.dialect.Dialect %PARSER_ERROR[l] <init> HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 175 INFO 
+=2023-06-13 18:07:12,155 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator %PARSER_ERROR[l] initiateService HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 52 INFO 
+=2023-06-13 18:07:12,178 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean %PARSER_ERROR[l] buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'default' 437 INFO 
+=2023-06-13 18:07:13,112 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration %PARSER_ERROR[l] openEntityManagerInViewInterceptor spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 223 WARN 
+=2023-06-13 18:07:13,877 org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer %PARSER_ERROR[l] startServer LiveReload server is running on port 35729 59 INFO 
+=2023-06-13 18:07:14,019 org.springframework.boot.web.embedded.tomcat.TomcatWebServer %PARSER_ERROR[l] start Tomcat started on port(s): 9091 (http) with context path '' 220 INFO 
+=2023-06-13 18:07:14,044 org.springframework.boot.StartupInfoLogger %PARSER_ERROR[l] logStarted Started BlogAppApis1Application in 11.172 seconds (JVM running for 13.654) 61 INFO 
+=2023-06-13 18:53:17,661 com.zaxxer.hikari.pool.HikariPool$HouseKeeper %PARSER_ERROR[l] run HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m37s388ms781µs700ns). 788 WARN 
+=2023-06-13 19:04:18,658 org.apache.juli.logging.DirectJDKLog %PARSER_ERROR[l] log Initializing Spring DispatcherServlet 'dispatcherServlet' 173 INFO 
+=2023-06-13 19:04:18,967 org.springframework.web.servlet.FrameworkServlet %PARSER_ERROR[l] initServletBean Initializing Servlet 'dispatcherServlet' 525 INFO 
+=2023-06-13 19:04:19,105 org.springframework.web.servlet.FrameworkServlet %PARSER_ERROR[l] initServletBean Completed initialization in 137 ms 547 INFO 
+=2023-06-13 21:42:14,279 com.zaxxer.hikari.pool.HikariPool$HouseKeeper %PARSER_ERROR[l] run HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m25s431ms162µs100ns). 788 WARN 
+=2023-06-13 21:43:14,333 org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin %PARSER_ERROR[l] shutdown Application shutdown requested. 159 INFO 
+=2023-06-13 21:43:15,056 org.apache.juli.logging.DirectJDKLog %PARSER_ERROR[l] log Stopping service [Tomcat] 173 INFO 
+=2023-06-13 21:43:15,144 org.apache.juli.logging.DirectJDKLog %PARSER_ERROR[l] log Destroying Spring FrameworkServlet 'dispatcherServlet' 173 INFO 
+=2023-06-13 21:43:15,489 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean %PARSER_ERROR[l] destroy Closing JPA EntityManagerFactory for persistence unit 'default' 651 INFO 
+=2023-06-13 21:43:15,689 com.zaxxer.hikari.HikariDataSource %PARSER_ERROR[l] close HikariPool-1 - Shutdown initiated... 350 INFO 
+=2023-06-13 21:43:15,742 com.zaxxer.hikari.HikariDataSource %PARSER_ERROR[l] close HikariPool-1 - Shutdown completed. 352 INFO 
